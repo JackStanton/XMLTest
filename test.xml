@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="test1.xsl"?>
+	<test name="testInformatics" theme="informatics" countQuestions="9" useQuestions="9" time="500" balls = "10">
+		<question name="q1" time="100" difficulty="50" mode = "single">
+			<questionText>Каково будет значение переменной Х после выполнения операции (А=5; В=10; Х=А+В; Х=Х+В)</questionText>
+			<answer name="a1" rating="0">15</answer>
+			<answer name="a2" rating="0">20</answer>
+			<answer name="a3" rating="1">25</answer>
+			<answer name="a4" rating="0">30</answer>
+		</question>
+		<question name="q2" time="100" difficulty="50"  mode = "single">
+			<questionText>Выберите верный адрес ячейки в эелектронной таблице</questionText>
+			<answer name="a5" rating="0">11D</answer>
+			<answer name="a6" rating="1">F12</answer>
+			<answer name="a7" rating="0">АБ3</answer>
+			<answer name="a8" rating="0">B1A</answer>
+		</question>
+		<question name="q3" time="100" difficulty="80"  mode = "single">
+			<questionText>Отечественный счетный инструмент был изобретен в первом тысячелетии и используется сейчас</questionText>
+			<answer name="a9" rating="0">Абак</answer>
+			<answer name="a10" rating="0">Логарифмическая линейка</answer>
+			<answer name="a11" rating="1">Счеты</answer>
+		</question>
+		<question name="q4" time="100" difficulty="50"  mode = "multiply">
+			<questionText>Прикладное ПО - это</questionText>
+			<answer name="a12" rating="1">MS Word</answer>
+			<answer name="a13" rating="1">Paint</answer>
+			<answer name="a14" rating="0">Сапер</answer>
+			<answer name="a15" rating="0">Антивирус</answer>
+		</question>
+		<question name="q4" time="100" difficulty="50"  mode = "multiply">
+			<questionText>Прикладное ПО - это</questionText>
+			<answer name="a12" rating="1">MS Word</answer>
+			<answer name="a13" rating="1">Paint</answer>
+			<answer name="a14" rating="0">Сапер</answer>
+			<answer name="a15" rating="0">Антивирус</answer>
+		</question>
+		<question name="q5" time="100" difficulty="50"  mode = "single">
+			<questionText>В электронной таблице основной элемент рабочего листа - это</questionText>
+			<answer name="a16" rating="0">Строка</answer>
+			<answer name="a17" rating="1">Ячейка</answer>
+			<answer name="a18" rating="0">Столбец</answer>
+		</question>
+		<question name="q6" time="100" difficulty="50"  mode = "single">
+			<questionText>Локальная сеть в которой все пользователи равны называется</questionText>
+			<answer name="a19" rating="1">Одноранговой</answer>
+			<answer name="a20" rating="0">Многоранговой</answer>
+			<answer name="a21" rating="0">На основе выделенного сервера</answer>
+		</question>
+		<question name="q7" time="100" difficulty="50"  mode = "single">
+			<questionText>Организация, представляющая услуги обмена данными с сетеой средой, называется</questionText>
+			<answer name="a22" rating="0">сетевым адаптером</answer>
+			<answer name="a23" rating="1">провайдером сетевых услуг</answer>
+			<answer name="a24" rating="0">системой автоматического управления</answer>
+		</question>
+		<question name="q8" time="100" difficulty="50"  mode = "single">
+			<questionText>К их разъемам подключается сетевой кабель</questionText>
+			<answer name="a25" rating="1">Сетевой интерфейс</answer>
+			<answer name="a26" rating="0">Трансивер</answer>
+			<answer name="a27" rating="0">Коннектор</answer>
+		</question>
+		<question name="q9" time="100" difficulty="70"  mode = "insert">
+			<questionText>Расшифровать CPU</questionText>
+			<answer name="a28" rating="1" importance="1">Central Processing Unit</answer>
+		</question>
+	</test>
